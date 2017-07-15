@@ -2,7 +2,7 @@
 
 Search for GitHub users, click on one of their repositories and see graph based on number of contributions per user to this project.
 
-Made with `Angular@4.2.4` + `Angular CLI@1.3.0` + `Typescript@2.3.3`
+Made with `Angular@4.2.4, Angular CLI@1.3.0, Typescript@2.3.3, Bootstrap@3.3.7`
 
 ## Install dependencies
 
