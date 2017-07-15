@@ -16,14 +16,14 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Project structure
 
-./app/ - root component
+`./app/` - root component
 
-./app/search-service/ - service to get data from GitHub API
+`./app/search-service/` - service to get data from GitHub API
 
-./app/search-form/ - component for a search form
+`./app/search-form/` - component for a search form
 
-./app/search-result/ - component for a search result, repositories per user
+`./app/search-result/` - component for a search result, repositories per user
 
-./app/search-result/graph-contributions/ - component for building a graph based on number of contributions per user to this project
+`./app/search-result/graph-contributions/` - component for building a graph based on number of contributions per user to this project
 
-./app/common/ - mocking GitHub API URL
+`./app/common/` - mocking GitHub API URL
