@@ -1,0 +1,16 @@
+<div id="search_result"
+     *ngIf="!loading">
+    <div *ngFor="let repo of makeAnArray(reposByUser)"
+         class="repo_card">
+        <div class="panel panel-default panel-body"
+             (click)="onClickOnRepo(repo.owner.login, repo.name)"
+             [class.selected]="repo.name === selectedRepoName">
+            <h4>{{repo.name}}</h4>
+        </div>
+    </div>
+</div>
+
+<app-graph-contributions
+        *ngIf="contributorsByUserRepo && selectedRepoIsActual(makeAnArray(reposByUser), selectedRepoName)"
+        [contributorsByUserRepo]="contributorsByUserRepo"
+></app-graph-contributions>

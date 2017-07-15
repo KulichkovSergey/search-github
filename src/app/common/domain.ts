@@ -1,0 +1,1 @@
+export const gitHubUrl: string = 'https://api.github.com/';

@@ -1,0 +1,16 @@
+$light_blue: #dbf0f5;
+
+#search_result {
+  margin-top: 20px
+}
+
+.repo_card {
+  width: 409px;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer
+}
+
+.selected {
+  background-color: $light_blue;
+}
